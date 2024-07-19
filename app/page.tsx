@@ -3,7 +3,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
-import Image from 'next/Image';
+// import Image from 'next/Image';
 
 export default function Page() {
   return (
@@ -33,7 +33,7 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
-          <Image
+          {/* <Image
             src="/hero-desktop.png"
             width={1000}
             height={760}
@@ -46,7 +46,7 @@ export default function Page() {
             height={620}
             className='md:hidden sm:block'
             alt='Mobile version'
-          />
+          /> */}
         </div>
       </div>
     </main>
